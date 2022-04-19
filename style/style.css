@@ -57,13 +57,13 @@ p{
   /* justify-content: center; */
   margin: 36px auto;
   padding: -18px;
-  height: 12%;
+  height: 18%;
   width: 345px;
 }
 
 .resume-icon{
   display: flex;
-  width: 14%;
+  width: 18%;
   height: 65%;
   margin: 18px 0 0 25px;
   padding: 0px;
@@ -72,19 +72,19 @@ p{
 .resume-text{
   display: flex;
   flex-direction: column;
-  margin: 15px 0 0 41px;
+  margin: 55px 0 0 41px;
 }
 
 .resume-text-segue{
   display: flex;
   flex-direction: row;
-  margin: 45px 0 0px -87px;
+  margin: 35px 0 0px -87px;
 }
 
 .resume-text-segue-change, a{
   text-decoration: none;
   display: flex;
-  margin: 15px 0 0 30px;
+  margin: 23px 0 0 30px;
 }
 
 .resume-text-segue-change, a:hover{
