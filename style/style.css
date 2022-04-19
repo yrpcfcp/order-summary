@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-size: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
+
+.container{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 620px;
+    margin: 30px auto;
+    width: 380px;
+    text-align: center;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    width: 380px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h2{
+  margin: 20px auto 30px ;
+}
+
+p{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: -40px 20px;
+  font-weight: 500;
+  opacity: 0.5;
+  line-height: 1.8;
+}
+
+.resume{
+  background-color:  hsl(225, 100%, 98%);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  margin: 36px auto;
+  padding: -18px;
+  height: 12%;
+  width: 345px;
+}
+
+.resume-icon{
+  display: flex;
+  width: 14%;
+  height: 65%;
+  margin: 18px 0 0 25px;
+  padding: 0px;
+}
+
+.resume-text{
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0 0 41px;
+}
+
+.resume-text-segue{
+  display: flex;
+  flex-direction: row;
+  margin: 45px 0 0px -87px;
+}
+
+.resume-text-segue-change, a{
+  text-decoration: none;
+  display: flex;
+  margin: 15px 0 0 30px;
+}
+
+.resume-text-segue-change, a:hover{
+  color: hsl(224, 23%, 55%);
+}
+
+
+button{
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 5px 5px 5px rgb(194, 190, 190);
+  color: white;
+  font-weight: 700;
+  width: 345px;
+  height: 8%;
+  border-radius: 20px;
+  border-color: hsl(245, 75%, 52%);
+  margin: -40px auto -30px;
+}
+
+button:hover{
+  background-color:  rgb(157, 26, 238);
+}
+
+.cancel{
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0px 0 0px 110px;
+  
+}
+.cancel:hover{
+  color:black;
+}
+
+.cancel-2{
+    color: rgba(4, 4, 4, 0.502);
+}
+
+/* -------------------------------------------MEDIA QUERIES-------------------------------------- */
+
+@media screen and (min-width: 768px) {
+  .container{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: shrink;
+    max-height: 620px;
+    margin: 0;
+    min-width: 380px;
+    text-align: center;
+}
+  
+}
