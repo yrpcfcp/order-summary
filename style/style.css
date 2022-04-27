@@ -22,7 +22,7 @@ html{
     flex-direction: row;
     flex-wrap: wrap;
     height: 700px;
-    margin: 100px auto;
+    margin: auto;
     width: 380px;
     text-align: center;
 }
